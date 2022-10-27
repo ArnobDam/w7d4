@@ -14,23 +14,32 @@ body {
 	font-size: 12px;
 
 }
-
+// rgb(83, 112, 192)
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	background-color: rgba(83, 112, 192, 0.7);
+	border-color: transparent;
+	color: white;
+	font-weight: bold;
+	padding: 2px;
+	border-radius: 2px;
 	// transition:
-	// font-family:
+	font-family: Arial, Helvetica, sans-serif;
 	// text-transform:
-	// font-size:
+	font-size: 6px;
 	// text-align:
 }
 
+.gear {
+	background-color: white;
+	color: black;
+}
+
+.gear:hover {
+	background-color: rgba(128, 128, 128, 0.05);
+}
+
 button:hover {
-	// background-color:
+	background-color: rgb(83, 112, 192)
 	// border-color:
 }
 
@@ -53,3 +62,4 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
