@@ -1,0 +1,58 @@
+/* PHASE 1: Header */
+
+body {
+    font-weight: default;
+    font-size: default;
+    font-family: default;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-logo {
+    /* display: flex; */
+    display: block;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.header-list {
+    display: flex;
+    /* justify-content: right; */
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: space-between; */
+    /* background-color: white; */
+}
+
+.header-list>li {
+    display: block;
+    /* display: flex;
+    margin-left: auto;
+    margin-right: auto; */
+    /* justify-content: right; */
+    /* justify-content: space-between; */
+    border-color: black;
+    border-style: solid;
+    /* border */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
